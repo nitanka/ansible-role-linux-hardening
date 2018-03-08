@@ -37,3 +37,4 @@
 - include: "core_dumps.yml"
 - include: "sysctl.yml"
 - include: "kernel_modules.yml"
+- include: "rhosts.yml"
