@@ -17,3 +17,6 @@
   notify:
     - restart ntp
   when: ansible_distribution == "Ubuntu"
+
+- name: Set the system  time
+  shell: timedatectl set-timezone Asia/Kolkata
