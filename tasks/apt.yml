@@ -1,0 +1,9 @@
+---
+- name: Installing debsums
+  apt:
+    - name: debsum
+      state: latest
+  update_cache: true
+
+- name: Cleaning up old packages
+  shell: dpkg --purge

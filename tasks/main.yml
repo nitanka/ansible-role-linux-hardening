@@ -38,3 +38,4 @@
 - include: "sysctl.yml"
 - include: "kernel_modules.yml"
 - include: "rhosts.yml"
+- include: "apt.yml"
